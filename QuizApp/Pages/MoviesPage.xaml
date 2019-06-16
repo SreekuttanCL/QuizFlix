@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="QuizApp.MoviesPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" BackgroundColor="Teal">
+                <Button Text="Back"
+                        TextColor="White"
+                        HorizontalOptions="Start"
+                        Padding="30"
+                        FontSize="20"
+                        Clicked="Back_Handle_Clicked"/>
+                <Label Text="Question 1" 
+                       TextColor="White" 
+                       FontSize="30" 
+                       FontFamily="Georgia"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"/>
+                <Label Text="Example question?"
+                       TextColor="White"
+                       FontSize="40"
+                       FontFamily="Georgia"
+                       HorizontalOptions="Center"
+                       VerticalOptions="EndAndExpand"/>
+                
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                <Button Text="TRUE"
+                        TextColor="Blue"
+                        FontSize="20"
+                        BackgroundColor="Lime" 
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        Clicked="True_Handle_Clicked"/>
+                <Button Text="FALSE"
+                        TextColor="White"
+                        FontSize="20"
+                        BackgroundColor="Red"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        Clicked="False_Handle_Clicked"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <ProgressBar x:Name="MovieBar" 
+                             Margin="10,20" 
+                             IsVisible="true" 
+                             ProgressColor="Lime"
+                             Progress="0"/>
+                
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
