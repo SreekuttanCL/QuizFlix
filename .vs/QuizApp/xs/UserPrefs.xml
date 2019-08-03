@@ -3,14 +3,18 @@
     <Files>
       <File FileName="QuizApp/Pages/MoviesPage.xaml" Line="1" Column="1" />
       <File FileName="QuizApp/Pages/MoviesPage.xaml.cs" />
-      <File FileName="QuizApp/Pages/MainPage.xaml" />
-      <File FileName="QuizApp/Pages/MainPage.xaml.cs" />
-      <File FileName="QuizApp/Pages/MainDetails.xaml.cs" />
+      <File FileName="QuizApp/Pages/MainPage.xaml.cs" Line="40" Column="1" />
+      <File FileName="QuizApp/Pages/MainDetails.xaml.cs" Line="1" Column="1" />
+      <File FileName="QuizApp/Pages/MasterPage.xaml" Line="15" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="QuizApp" expanded="True" selected="True" />
+          <Node name="QuizApp" expanded="True">
+            <Node name="QuizApp" expanded="True">
+              <Node name="Pages" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

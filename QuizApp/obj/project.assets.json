@@ -472,11 +472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/QuizApp.csproj",
+      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
       "projectName": "QuizApp",
-      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/QuizApp.csproj",
+      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
       "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/obj/",
+      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

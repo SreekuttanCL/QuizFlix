@@ -8,13 +8,14 @@
                 <RowDefinition Height="0.4*"/>
                 
             </Grid.RowDefinitions>
-            <StackLayout Grid.Row="0" BackgroundColor="Gray">
+            <StackLayout Grid.Row="0" BackgroundColor="skyblue">
                 <Label Text="Hello!" 
                        HorizontalOptions="CenterAndExpand" 
                        VerticalOptions="CenterAndExpand"
-                       FontSize="30"
+                       FontSize="40"
                        FontFamily="Georgia"
-                       TextColor="Aqua"/>
+                       TextColor="Red"
+                       />
             </StackLayout>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
@@ -24,9 +25,11 @@
                 </Grid.RowDefinitions>
                 <Button Grid.Row="0" 
                         Text="Category"
+                        FontSize="Large"
                         Clicked="Category_Handle_Clicked"/>
                 <Button Grid.Row="1" 
-                        Text="LogOut" 
+                        Text="LogOut"
+                        FontSize="Large"
                         Clicked="LogOut_Handle_Clicked"/>
                 
             </Grid>

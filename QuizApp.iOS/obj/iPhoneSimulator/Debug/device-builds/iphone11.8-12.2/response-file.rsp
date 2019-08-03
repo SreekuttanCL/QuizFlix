@@ -1,5 +1,5 @@
---cache=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
---sim=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/QuizApp.iOS.app
+--cache=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
+--sim=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/QuizApp.iOS.app
 --executable=QuizApp.iOS
  --debug
  --sgen-conc
@@ -10,10 +10,10 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
---symbollist=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
+--symbollist=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
  --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/bin/Debug/netstandard2.0/QuizApp.dll
+-r=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/bin/Debug/netstandard2.0/QuizApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
@@ -203,7 +203,7 @@
 -r=/Users/sreekuttancl/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/sreekuttancl/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/sreekuttancl/.nuget/packages/xamarin.testcloud.agent/0.21.7/lib/Xamarin.iOS/Calabash.dll
--r=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/bin/Debug/netstandard2.0/QuizApp.dll
+-r=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/bin/Debug/netstandard2.0/QuizApp.dll
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.iOS/bin/iPhoneSimulator/Debug/QuizApp.iOS.exe
+--root-assembly=/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/bin/iPhoneSimulator/Debug/QuizApp.iOS.exe
  

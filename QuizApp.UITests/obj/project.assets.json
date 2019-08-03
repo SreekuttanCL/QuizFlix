@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.UITests/QuizApp.UITests.csproj",
+      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
       "projectName": "QuizApp.UITests",
-      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.UITests/QuizApp.UITests.csproj",
+      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
       "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.UITests/obj/",
+      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

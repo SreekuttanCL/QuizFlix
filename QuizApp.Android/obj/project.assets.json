@@ -1116,11 +1116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.Android/QuizApp.Android.csproj",
+      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.Android/QuizApp.Android.csproj",
       "projectName": "QuizApp.Android",
-      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.Android/QuizApp.Android.csproj",
+      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.Android/QuizApp.Android.csproj",
       "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp.Android/obj/",
+      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1135,8 +1135,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/QuizApp.csproj": {
-              "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizApp/QuizApp/QuizApp.csproj"
+            "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj": {
+              "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj"
             }
           }
         }
