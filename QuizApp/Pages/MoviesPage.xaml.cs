@@ -7,6 +7,19 @@ namespace QuizApp
 {
     public partial class MoviesPage : ContentPage
     {
+
+        string allQuestion = Question();
+        bool pickedAnswer = false;
+        int questionNumber = 0;
+
+        public void nextQuestion()
+        {
+            if (questionNumber <= 5)
+            {
+                questionLabel.Text
+            }
+        }
+
         void True_Handle_Clicked(object sender, System.EventArgs e)
         {
 

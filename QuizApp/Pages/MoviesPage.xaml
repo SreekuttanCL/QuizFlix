@@ -14,7 +14,8 @@
                         Padding="30"
                         FontSize="20"
                         Clicked="Back_Handle_Clicked"/>
-                <Label Text="Question 1" 
+                <Label x:Name="questionLabel"
+                       Text="Question 1" 
                        TextColor="White" 
                        FontSize="30" 
                        FontFamily="Georgia"
