@@ -41,6 +41,10 @@ namespace QuizApp
         {
             MainPage = new CategoryPage();
         }
+        public void onSignUp()
+        {
+            MainPage = new SignUp();
+        }
 
         protected override void OnStart()
         {

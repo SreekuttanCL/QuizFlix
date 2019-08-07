@@ -52,3 +52,4 @@
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.dll
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.pdb
+/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/SignUp.xaml.g.cs

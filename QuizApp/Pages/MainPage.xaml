@@ -21,24 +21,34 @@
                 <Entry Placeholder="Password"
                        x:Name="password"
                        HeightRequest="50"
-                       HorizontalOptions="FillAndExpand"/>
+                       HorizontalOptions="FillAndExpand"
+                       Keyboard="Email"
+                       IsPassword="True"/>
                 <Label x:Name="Error"
                        TextColor="Red"
                        FontSize="15"/>
                 
             </StackLayout>
         </StackLayout>
-        <StackLayout Grid.Row="2" Padding="20">
-                <Button Text="Enter" 
+        <StackLayout Grid.Row="2" Padding="20" VerticalOptions="StartAndExpand">
+                <Button Text="Sign In" 
                         TextColor="Black" 
                         HeightRequest="50" 
                         Padding="10" 
                         FontSize="Large" 
                         FontFamily="Rockwell"
                         HorizontalOptions="FillAndExpand"
-                        VerticalOptions="StartAndExpand" 
-                        BackgroundColor="Orange"
+                        BackgroundColor="#FFC107"
                         Clicked="Enter_Handle_Clicked"/>
+                <Button Text="Create Account" 
+                        TextColor="Black" 
+                        HeightRequest="50" 
+                        Padding="10" 
+                        FontSize="Large" 
+                        FontFamily="Rockwell"
+                        HorizontalOptions="FillAndExpand"
+                        BackgroundColor="#FFC107"
+                        Clicked="Signup_Clicked"/>
         </StackLayout>
     </Grid>
 </ContentPage>

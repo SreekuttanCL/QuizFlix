@@ -16,11 +16,14 @@ namespace QuizApp
     {
         void Enter_Handle_Clicked(object sender, System.EventArgs e)
         {
-            var Username_input = username.Text;
-            var Password_input = password.Text;
-            if (Username_input == null & Password_input == null)
+         
+            if (username.Text == null)
             {
-                Error.Text = "Invalid Username or Password";
+                Error.Text = "Username is empty";
+            }
+            else if(password.Text == null)
+            {
+                Error.Text = "Password is empty";
             }
             else
             {
@@ -29,6 +32,11 @@ namespace QuizApp
 
             }
 
+        }
+        void Signup_Clicked(object sender, System.EventArgs e)
+        {
+            var myApp = Application.Current as App;
+            myApp.onSignUp();
         }
 
         public MainPage()
