@@ -9,6 +9,12 @@ namespace QuizApp
     {
 
         string allQuestion = Question();
+
+        private static string Question()
+        {
+            throw new NotImplementedException();
+        }
+
         bool pickedAnswer = false;
         int questionNumber = 0;
 
@@ -16,7 +22,7 @@ namespace QuizApp
         {
             if (questionNumber <= 5)
             {
-                questionLabel.Text
+                questionLabel.Text = "hello";
             }
         }
 

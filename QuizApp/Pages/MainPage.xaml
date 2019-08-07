@@ -4,12 +4,16 @@
              xmlns:local="clr-namespace:QuizApp" x:Class="QuizApp.MainPage">
     <Grid BackgroundColor="white" >
         <StackLayout Grid.Row="0">
-            <StackLayout VerticalOptions="CenterAndExpand" Padding="20" >
-                <Label Text="Welcome" 
-                       TextColor="Red" 
-                       FontFamily="Georgia" 
-                       FontSize="30"
-                       HorizontalOptions="Center"/>
+            <Label Text="QuizFlizz"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   FontSize="60"
+                   FontFamily="Georgia"
+                   FontAttributes="Italic"
+                   TextColor="orange"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1">
+            <StackLayout VerticalOptions="StartAndExpand" Padding="20" >
                 <Entry Placeholder="Username"
                        x:Name="username"
                        HeightRequest="50"
@@ -24,7 +28,7 @@
                 
             </StackLayout>
         </StackLayout>
-        <StackLayout Grid.Row="1" Padding="20">
+        <StackLayout Grid.Row="2" Padding="20">
                 <Button Text="Enter" 
                         TextColor="Black" 
                         HeightRequest="50" 

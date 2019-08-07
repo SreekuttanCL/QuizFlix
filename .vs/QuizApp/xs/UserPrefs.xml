@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{A32DADD1-86D7-4F65-8308-C9E1A7B14660}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="QuizApp/Pages/MoviesPage.xaml.cs" Line="19" Column="35" />
-      <File FileName="QuizApp/Question.cs" Line="36" Column="42" />
-      <File FileName="QuizApp/Model/QuestionBank.cs" Line="10" Column="52" />
-      <File FileName="QuizApp/Pages/MoviesPage.xaml" Line="17" Column="45" />
+      <File FileName="QuizApp/Pages/MoviesPage.xaml.cs" Line="19" Column="32" />
+      <File FileName="QuizApp/Model/QuestionBank.cs" />
+      <File FileName="QuizApp/Pages/MoviesPage.xaml" Line="1" Column="1" />
+      <File FileName="QuizApp/Pages/MainPage.xaml" Line="11" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +17,7 @@
                 <Node name="MainDetails.xaml" expanded="True" />
                 <Node name="MainPage.xaml" expanded="True" />
                 <Node name="MasterPage.xaml" expanded="True" />
-                <Node name="MoviesPage.xaml" expanded="True">
-                  <Node name="MoviesPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="MoviesPage.xaml" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>
