@@ -45,6 +45,7 @@
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/Pages/MasterPage.xaml.g.cs
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/Pages/MoviesPage.xaml.g.cs
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/Pages/PoliticsPage.xaml.g.cs
+/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/Pages/SignUp.xaml.g.cs
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/Pages/SportsPage.xaml.g.cs
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.csproj.CoreCompileInputs.cache
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.AssemblyInfoInputs.cache
@@ -52,4 +53,3 @@
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.dll
 /Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/QuizApp.pdb
-/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/Debug/netstandard2.0/SignUp.xaml.g.cs

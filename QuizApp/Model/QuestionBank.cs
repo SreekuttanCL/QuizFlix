@@ -1,12 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+
 
 namespace QuizApp.Model
 {
-    public class QuestionBank
+    public class QuestionBank: Question
     {
-        public Question question;
+        //public Question question;
 
-        Question m1 = new Question("HOw are you", true);
-        Question m2 = new Question("hello", false);
+        List<Question> question = new List<Question>()
+        {
+            new Question { QuestionText = "How are you", CorrectAnswer = true},
+            new Question { QuestionText = "kflshg", CorrectAnswer = false}
+        };
+
+       
     }
 }

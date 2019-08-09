@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using QuizApp.Model;
 
 using Xamarin.Forms;
 
@@ -7,28 +9,19 @@ namespace QuizApp
 {
     public partial class MoviesPage : ContentPage
     {
-
-        string allQuestion = Question();
-
-        private static string Question()
-        {
-            throw new NotImplementedException();
-        }
-
+        
+        QuestionBank allQuestion;
         bool pickedAnswer = false;
         int questionNumber = 0;
-
-        public void nextQuestion()
-        {
-            if (questionNumber <= 5)
-            {
-                questionLabel.Text = "hello";
-            }
-        }
+        int score = 0;
 
         void True_Handle_Clicked(object sender, System.EventArgs e)
         {
 
+            pickedAnswer = true;
+            checkAnswer();
+
+            nextQuestion();
         }
 
         void Back_Handle_Clicked(object sender, System.EventArgs e)
@@ -40,11 +33,32 @@ namespace QuizApp
         void False_Handle_Clicked(object sender, System.EventArgs e)
         {
 
+            pickedAnswer = false;
         }
 
         public MoviesPage()
         {
+            
             InitializeComponent();
+        }
+
+
+        public void checkAnswer()
+        {
+            var correctAnswer = allQuestion.CorrectAnswer;
+            if (correctAnswer = pickedAnswer)
+            {
+                Debug.WriteLine("hello");
+            }
+        }
+
+        public void nextQuestion()
+        {
+
+            if(questionNumber <= 10)
+            {
+                questionLabel.Text = allQuestion.QuestionText;
+            }
         }
     }
 }
