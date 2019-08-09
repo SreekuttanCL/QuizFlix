@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj": {}
+    "/Users/arjunneupane/Projects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj": {}
   },
   "projects": {
-    "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj": {
+    "/Users/arjunneupane/Projects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj",
+        "projectUniqueName": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj",
         "projectName": "QuizApp.iOS",
-        "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj",
-        "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-        "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.iOS/obj/",
+        "projectPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.iOS/QuizApp.iOS.csproj",
+        "packagesPath": "/Users/arjunneupane/.nuget/packages/",
+        "outputPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/sreekuttancl/.config/NuGet/NuGet.Config"
+          "/Users/arjunneupane/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj": {
-                "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj"
+              "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj": {
+                "projectPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj"
               }
             }
           }
@@ -63,20 +63,20 @@
         }
       }
     },
-    "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj": {
+    "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
+        "projectUniqueName": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
-        "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-        "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/",
+        "projectPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj",
+        "packagesPath": "/Users/arjunneupane/.nuget/packages/",
+        "outputPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreekuttancl/.config/NuGet/NuGet.Config"
+          "/Users/arjunneupane/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

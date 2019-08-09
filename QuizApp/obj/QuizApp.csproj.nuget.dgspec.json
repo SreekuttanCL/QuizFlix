@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj": {}
+    "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj": {}
   },
   "projects": {
-    "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj": {
+    "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
+        "projectUniqueName": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/QuizApp.csproj",
-        "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-        "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp/obj/",
+        "projectPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/QuizApp.csproj",
+        "packagesPath": "/Users/arjunneupane/.nuget/packages/",
+        "outputPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreekuttancl/.config/NuGet/NuGet.Config"
+          "/Users/arjunneupane/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -52,10 +52,6 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[3.6.0.264807, )"
-            },
-            "Xamarin.GooglePlayServices.Auth": {
-              "target": "Package",
-              "version": "[71.1600.0, )"
             }
           },
           "imports": [

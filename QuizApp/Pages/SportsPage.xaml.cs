@@ -15,7 +15,7 @@ namespace QuizApp
 
         void True_Handle_Clicked(object sender, System.EventArgs e)
         {
-
+            que.Text = "hello";
         }
 
         void Back_Handle_Clicked(object sender, System.EventArgs e)

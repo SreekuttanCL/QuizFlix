@@ -11,9 +11,13 @@ namespace QuizApp
     {
         
         QuestionBank allQuestion;
-        bool pickedAnswer = false;
+        bool pickedAnswer, correctAnswer;
         int questionNumber = 0;
         int score = 0;
+        Double perQuestionProgress = .2;
+
+        //pr
+        
 
         void True_Handle_Clicked(object sender, System.EventArgs e)
         {
@@ -21,7 +25,15 @@ namespace QuizApp
             pickedAnswer = true;
             checkAnswer();
 
-            nextQuestion();
+        }
+
+       
+
+        void False_Handle_Clicked(object sender, System.EventArgs e)
+        {
+
+            pickedAnswer = false;
+            checkAnswer();
         }
 
         void Back_Handle_Clicked(object sender, System.EventArgs e)
@@ -30,34 +42,67 @@ namespace QuizApp
             onBack.Back();
         }
 
-        void False_Handle_Clicked(object sender, System.EventArgs e)
-        {
-
-            pickedAnswer = false;
-        }
-
         public MoviesPage()
         {
-            
+            allQuestion = new QuestionBank();
             InitializeComponent();
+            questionLabel.Text = allQuestion.question[questionNumber].QuestionText;
         }
 
 
         public void checkAnswer()
         {
-            var correctAnswer = allQuestion.CorrectAnswer;
-            if (correctAnswer = pickedAnswer)
+            if (questionNumber < 10)
             {
-                Debug.WriteLine("hello");
+               correctAnswer = allQuestion.question[questionNumber].CorrectAnswer;
+
+                if(pickedAnswer == correctAnswer)
+                {
+                    score++;
+                }
+
+                MovieBar.ProgressTo(perQuestionProgress, 250, Easing.Linear);
+                perQuestionProgress = perQuestionProgress + .1;
+                currentScore.Text = "Score: " + score + "/10";
+
+                nextQuestion();
+
+                if(questionNumber == 9)
+                {
+                    OnAlertYesNoClicked(null, null);
+                    currentScore.Text = "";
+
+                }
+                //do something after 10 questions
+
             }
+            
+            questionNumber++;
+
         }
 
-        public void nextQuestion()
-        {
+    
 
-            if(questionNumber <= 10)
+        public void nextQuestion()
+        {       
+            questionLabel.Text = allQuestion.question[questionNumber].QuestionText;
+            
+        }
+        async void OnAlertYesNoClicked(object sender, EventArgs e)
+        {
+            bool answer = await DisplayAlert("Results", "Your Final Score is " + score + "/10", "Continue", "Try Again");
+
+            if (answer)
             {
-                questionLabel.Text = allQuestion.QuestionText;
+                //send user to the category screen
+                var myApp = Application.Current as App;
+                myApp.Category();
+            }
+            else
+            {
+                //restart the activity
+                var myApp = Application.Current as App;
+                myApp.toMovies();
             }
         }
     }

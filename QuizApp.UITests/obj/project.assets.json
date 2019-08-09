@@ -125,20 +125,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/sreekuttancl/.nuget/packages/": {}
+    "/Users/arjunneupane/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
+      "projectUniqueName": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
       "projectName": "QuizApp.UITests",
-      "projectPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
-      "packagesPath": "/Users/sreekuttancl/.nuget/packages/",
-      "outputPath": "/Users/sreekuttancl/Documents/XamarinProjects/QuizFlix/QuizApp.UITests/obj/",
+      "projectPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.UITests/QuizApp.UITests.csproj",
+      "packagesPath": "/Users/arjunneupane/.nuget/packages/",
+      "outputPath": "/Users/arjunneupane/Projects/QuizFlix/QuizApp.UITests/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/sreekuttancl/.config/NuGet/NuGet.Config"
+        "/Users/arjunneupane/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
